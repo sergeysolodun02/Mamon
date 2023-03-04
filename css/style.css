@@ -1,0 +1,100 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+	width: 100%;
+	max-width: 1180px;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-right: 15px;
+	padding-left: 15px;
+
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.nav {
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.nav>li {
+	margin-left: 15px;
+}
+
+.nav>li>a {
+	text-decoration: none;
+	color: #202020;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.nav-btn {
+	background-color: #5528FF;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 15px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+
+.logo-img {
+	display: block;
+	width: 58px;
+	height: 58px;
+	margin-right: 20px;
+	background-image: url(../img/logo.svg);
+}
+
+.logo-text {
+	font-size: 24px;
+	font-weight: 700;
+	color: #202020;
+}
+
+.wrap {
+	width: 100%;
+	max-width: 1180px;
+	margin: 0 auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+
+.title-main {
+	font-size: 55px;
+	font-weight: 700;
+	line-height: 65.49px;
+}
+
+.text-main {
+	max-width: 741px;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 51.48px;
+	color: #4F4F4F;
+}
+.button {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 27.58px;
+	color: fff;
+	background-color: #5528FF;
+	padding: 10px 45px;
+	border-radius: 10px;
+	border: none;
+}
